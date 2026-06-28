@@ -1,0 +1,20 @@
+{
+  "name": "seosan-vacantai-pro",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=seosan-frontend",
+    "dev:server": "npm run dev --workspace=seosan-server",
+    "build": "npm run build --workspace=seosan-frontend",
+    "typecheck": "npm run typecheck --workspace=seosan-frontend",
+    "test": "npm run test --workspace=seosan-server",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "workspaces": [
+    "frontend",
+    "server"
+  ]
+}
