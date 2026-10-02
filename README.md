@@ -13,15 +13,15 @@
 
 ## Project Overview
 
-| 항목 | 내용 |
-| --- | --- |
-| **Project** | AI여긴어때 |
-| **Origin** | 2025 멋쟁이사자처럼 중앙해커톤 |
-| **Hackathon Role** | Frontend 단독 담당 |
-| **Current Status** | 해커톤 이후 개인적으로 개선한 버전 |
-| **Frontend** | React 18 · TypeScript · Vite · Tailwind CSS |
-| **Server** | Node.js · Express |
-| **Structure** | npm Workspaces 기반 Monorepo |
+| 항목               | 내용                                        |
+| ------------------ | ------------------------------------------- |
+| **Project**        | AI여긴어때                                  |
+| **Origin**         | 2025 멋쟁이사자처럼 중앙해커톤              |
+| **Hackathon Role** | Frontend 단독 담당                          |
+| **Current Status** | 해커톤 이후 개인적으로 개선한 버전          |
+| **Frontend**       | React 18 · TypeScript · Vite · Tailwind CSS |
+| **Server**         | Node.js · Express                           |
+| **Structure**      | npm Workspaces 기반 Monorepo                |
 
 > 해커톤 당시에는 Frontend 화면 구현을 담당했지만  
 > 제한된 개발 기간과 경험 부족으로 팀 Backend와의 API 연동까지 완료하지 못했습니다.
@@ -70,50 +70,46 @@ Frontend와 Backend 사이의 API 연동 방식에 대한 이해가 부족해
 
 ---
 
-<!--
 ## Screenshots
+
+현재 저장소의 주요 화면입니다.
 
 <table>
   <tr>
-    <td align="center">
-      <img src="./docs/images/home.png" width="360" alt="홈 화면"/>
+    <td align="center" width="50%">
+      <img src="./docs/images/home.png" width="440" alt="AI여긴어때 홈 화면"/>
       <br/>
       <b>Home</b>
-    </td>
-    <td align="center">
-      <img src="./docs/images/listings.png" width="360" alt="공실 매물 화면"/>
       <br/>
-      <b>Listings</b>
+      <sub>서비스 소개 및 주요 기능 진입</sub>
     </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./docs/images/map.png" width="360" alt="지도 화면"/>
-      <br/>
-      <b>Map</b>
-    </td>
-    <td align="center">
-      <img src="./docs/images/wizard.png" width="360" alt="상권 분석 화면"/>
+    <td align="center" width="50%">
+      <img src="./docs/images/wizard.png" width="440" alt="상권 분석 결과 화면"/>
       <br/>
       <b>Market Analysis</b>
+      <br/>
+      <sub>등록 매물과 휴리스틱 기반 상권 참고 분석</sub>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="./docs/images/ai-chat.png" width="360" alt="AI 메이트 화면"/>
+    <td align="center" width="50%">
+      <img src="./docs/images/ai-chat.png" width="440" alt="AI 메이트 검색 화면"/>
       <br/>
       <b>AI Mate</b>
-    </td>
-    <td align="center">
-      <img src="./docs/images/listing-detail.png" width="360" alt="매물 상세 화면"/>
       <br/>
-      <b>Listing Detail</b>
+      <sub>Keyword Matching 기반 등록 매물 검색</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./docs/images/listing-detail.png" width="440" alt="매물 상세 기능 화면"/>
+      <br/>
+      <b>Listing Detail & Simulation</b>
+      <br/>
+      <sub>주변 업종 집계 · 손익 참고 계산 · 리뷰</sub>
     </td>
   </tr>
 </table>
 
 ---
--->
 
 ## Service
 
@@ -351,33 +347,33 @@ Server에서는 원본 Key를 그대로 저장하지 않고
 
 ### Frontend
 
-| Category | Technology |
-| --- | --- |
-| Framework | React 18 |
-| Language | TypeScript |
-| Build Tool | Vite |
-| Styling | Tailwind CSS |
-| Routing | React Router DOM |
-| HTTP Client | Axios |
+| Category    | Technology       |
+| ----------- | ---------------- |
+| Framework   | React 18         |
+| Language    | TypeScript       |
+| Build Tool  | Vite             |
+| Styling     | Tailwind CSS     |
+| Routing     | React Router DOM |
+| HTTP Client | Axios            |
 
 ### Server
 
-| Category | Technology |
-| --- | --- |
-| Runtime | Node.js |
-| Framework | Express |
-| Data Storage | JSON File |
-| File Processing | Multer, csv-parse |
-| Test | Node.js Test Runner |
+| Category        | Technology          |
+| --------------- | ------------------- |
+| Runtime         | Node.js             |
+| Framework       | Express             |
+| Data Storage    | JSON File           |
+| File Processing | Multer, csv-parse   |
+| Test            | Node.js Test Runner |
 
 ### External Integration
 
-| Category | Service |
-| --- | --- |
-| Map | Kakao Maps |
-| Geocoding | Kakao / Naver 관련 코드 |
-| Public Listings | LH Public Data |
-| Startup News | External News API |
+| Category        | Service                 |
+| --------------- | ----------------------- |
+| Map             | Kakao Maps              |
+| Geocoding       | Kakao / Naver 관련 코드 |
+| Public Listings | LH Public Data          |
+| Startup News    | External News API       |
 
 일부 외부 기능은 별도의 API Key 및 환경변수 설정이 필요합니다.
 
