@@ -13,15 +13,15 @@
 
 ## Project Overview
 
-| 항목               | 내용                                        |
-| ------------------ | ------------------------------------------- |
-| **Project**        | AI여긴어때                                  |
-| **Origin**         | 2025 멋쟁이사자처럼 중앙해커톤              |
-| **Hackathon Role** | Frontend 단독 담당                          |
-| **Current Status** | 해커톤 이후 개인적으로 개선한 버전          |
-| **Frontend**       | React 18 · TypeScript · Vite · Tailwind CSS |
-| **Server**         | Node.js · Express                           |
-| **Structure**      | npm Workspaces 기반 Monorepo                |
+| 항목 | 내용 |
+| --- | --- |
+| **Project** | AI여긴어때 |
+| **Origin** | 2025 멋쟁이사자처럼 중앙해커톤 |
+| **Hackathon Role** | Frontend 단독 담당 |
+| **Current Status** | 해커톤 이후 개인적으로 개선한 버전 |
+| **Frontend** | React 18 · TypeScript · Vite · Tailwind CSS |
+| **Server** | Node.js · Express |
+| **Structure** | npm Workspaces 기반 Monorepo |
 
 > 해커톤 당시에는 Frontend 화면 구현을 담당했지만  
 > 제한된 개발 기간과 경험 부족으로 팀 Backend와의 API 연동까지 완료하지 못했습니다.
@@ -209,8 +209,9 @@ frontend/src/
 
 현재 `server/`는 **해커톤 당시 팀 Backend가 아니라 개인 후속 구현**입니다.
 
-초기에는 Frontend 연동을 시도하는 과정에서 생성형 AI의 도움으로 시작되었고,  
-이후 프로젝트를 계속 수정하면서 기능과 구조를 개인적으로 보완했습니다.
+초기에는 Frontend와 Server 연동을 학습하는 과정에서  
+생성형 AI를 활용해 기본 구조를 구성했고,  
+이후 프로젝트를 계속 수정하면서 기능과 구조를 직접 보완했습니다.
 
 현재 주요 기능은 다음과 같습니다.
 
@@ -347,33 +348,33 @@ Server에서는 원본 Key를 그대로 저장하지 않고
 
 ### Frontend
 
-| Category    | Technology       |
-| ----------- | ---------------- |
-| Framework   | React 18         |
-| Language    | TypeScript       |
-| Build Tool  | Vite             |
-| Styling     | Tailwind CSS     |
-| Routing     | React Router DOM |
-| HTTP Client | Axios            |
+| Category | Technology |
+| --- | --- |
+| Framework | React 18 |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Routing | React Router DOM |
+| HTTP Client | Axios |
 
 ### Server
 
-| Category        | Technology          |
-| --------------- | ------------------- |
-| Runtime         | Node.js             |
-| Framework       | Express             |
-| Data Storage    | JSON File           |
-| File Processing | Multer, csv-parse   |
-| Test            | Node.js Test Runner |
+| Category | Technology |
+| --- | --- |
+| Runtime | Node.js |
+| Framework | Express |
+| Data Storage | JSON File |
+| File Processing | Multer, csv-parse |
+| Test | Node.js Test Runner |
 
 ### External Integration
 
-| Category        | Service                 |
-| --------------- | ----------------------- |
-| Map             | Kakao Maps              |
-| Geocoding       | Kakao / Naver 관련 코드 |
-| Public Listings | LH Public Data          |
-| Startup News    | External News API       |
+| Category | Service |
+| --- | --- |
+| Map | Kakao Maps |
+| Geocoding | Kakao Local API / Naver Cloud Maps |
+| Public Listings | LH Public Data |
+| Startup News | Naver Search API |
 
 일부 외부 기능은 별도의 API Key 및 환경변수 설정이 필요합니다.
 
