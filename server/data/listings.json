@@ -10,7 +10,7 @@
     "deposit": 3000,
     "rentMonthly": 250,
     "maintenanceFee": 0,
-    "images": ["https://picsum.photos/seed/seosan1/1200/800"],
+    "images": [],
     "theme": ["역세권", "오피스 밀집"],
     "lat": 36.7818,
     "lng": 126.4528
@@ -26,7 +26,7 @@
     "deposit": 2800,
     "rentMonthly": 220,
     "maintenanceFee": 0,
-    "images": ["https://picsum.photos/seed/seosan2/1200/800"],
+    "images": [],
     "theme": ["청년 상권", "야식"],
     "lat": 36.7769,
     "lng": 126.4579
@@ -42,7 +42,7 @@
     "deposit": 2000,
     "rentMonthly": 180,
     "maintenanceFee": 0,
-    "images": ["https://picsum.photos/seed/seosan3/1200/800"],
+    "images": [],
     "theme": ["주택가 인접"],
     "lat": 36.7894,
     "lng": 126.4643
@@ -58,7 +58,7 @@
     "deposit": 2200,
     "rentMonthly": 170,
     "maintenanceFee": 0,
-    "images": ["https://picsum.photos/seed/seosan4/1200/800"],
+    "images": [],
     "theme": ["학세권", "주택가"],
     "lat": 36.7859,
     "lng": 126.4762
@@ -74,7 +74,7 @@
     "deposit": 1800,
     "rentMonthly": 150,
     "maintenanceFee": 0,
-    "images": ["https://picsum.photos/seed/seosan5/1200/800"],
+    "images": [],
     "theme": ["관광 특화"],
     "lat": 36.7124,
     "lng": 126.5579

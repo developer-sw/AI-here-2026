@@ -13,8 +13,9 @@ const nav = ({ isActive }: { isActive: boolean }) =>
 export default function MainLayout() {
   const location = useLocation()
 
-  // 마이페이지에서만 푸터 숨김
-  const hideFooter = location.pathname.startsWith('/account')
+const hideFooter =
+  location.pathname.startsWith('/account') ||
+  location.pathname.startsWith('/ai/chat')
 
   // 홈/지도 상단 여백 미세 보정
   const isHome = location.pathname === '/'

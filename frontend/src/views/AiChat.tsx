@@ -85,7 +85,7 @@ export default function AiChat() {
   }, [msgs, pending])
 
   return (
-    <div className="relative">
+    <div className="relative min-h-[calc(100dvh-68px)]">
       {/* 메시지 영역: 중앙 고정 폭 + 입력창 높이만큼 패딩(겹침 방지) */}
       <div className="mx-auto w-[min(1000px,92vw)] pt-6 pb-[140px]">
         {/* 날짜 칩 (상단 중앙) — 메시지가 있을 때만 표시 */}
